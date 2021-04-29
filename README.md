@@ -1,2 +1,2 @@
-# uxera_backend
-UXERA VOD Backend
+# uxera
+UXERA VOD System
