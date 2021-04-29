@@ -1,0 +1,36 @@
+<smil>
+    <head>
+        <meta name="author" content="NurFLIX TV Production"/>
+        <meta name="title" content="NurFLIX TV Originals"/>
+        <meta name="copyright" content="(c)2020 NurFLIX TV"/>
+        </head>
+    <body>
+        <switch>
+                <video src="mp4:1080p.mp4" system-bitrate="5941000" width="1920" height="1080">
+                        <param name="audioBitrate" value="282000" valuetype="data"/>
+                        <param name="videoBitrate" value="5672000" valuetype="data"/>
+                        <param name="videoCodecId" value="avc1.4d401f" valuetype="data"/>
+                        <param name="audioCodecId" value="mp4a.40.2" valuetype="data"/>
+                </video>
+                <video src="mp4:myStream_360p" system-bitrate="3612000" width="1280" height="720">
+                        <param name="audioBitrate" value="282000" valuetype="data"/>
+                        <param name="videoBitrate" value="3333000" valuetype="data"/>
+                        <param name="videoCodecId" value="avc1.4d401f" valuetype="data"/>
+                        <param name="audioCodecId" value="mp4a.40.2" valuetype="data"/>
+                </video>
+                <video src="mp4:myStream_160p" system-bitrate="1467000" width="720" height="480">
+                        <param name="audioBitrate" value="128000" valuetype="data"/>
+                        <param name="videoBitrate" value="1336000" valuetype="data"/>
+                        <param name="videoCodecId" value="avc1.428015" valuetype="data"/>
+                        <param name="audioCodecId" value="mp4a.40.2" valuetype="data"/>
+                </video>
+
+                <video src="mp4:myStream_160p" system-bitrate="479000" width="320" height="176">
+                        <param name="audioBitrate" value="160000" valuetype="data"/>
+                        <param name="videoBitrate" value="313000" valuetype="data"/>
+                        <param name="videoCodecId" value="avc1.428015" valuetype="data"/>
+                        <param name="audioCodecId" value="mp4a.40.2" valuetype="data"/>
+                </video>               
+        </switch>
+    </body>
+</smil>
